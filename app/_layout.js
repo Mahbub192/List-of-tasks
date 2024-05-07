@@ -11,8 +11,8 @@ export default function _layout() {
             fontWeight:"bold"
         }
     }}>
-        <Stack.Screen options={{headerTitle: 'Home'}} name="index"/>
-        <Stack.Screen options={{headerTitle: 'Note'}} name="notes"/>
+        <Stack.Screen options={{headerBackTitleVisible: false, headerTitle: 'Home'}} name="index"/>
+        <Stack.Screen options={{headerBackTitleVisible: false,headerTitle: 'Note'}} name="notes"/>
     </Stack>
   )
 }

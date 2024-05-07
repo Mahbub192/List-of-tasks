@@ -39,7 +39,7 @@ export default function Notes() {
         setShowDialog(true);
         setTimeout(() => {
           setShowDialog(false);
-          router.replace("/");
+          router.push("/");
         }, 2500);
       } catch (error) {
         console.log(33, "error");
